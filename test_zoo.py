@@ -30,7 +30,7 @@ class TestZoo(unittest.TestCase):
         self.assertEqual(self.zoo.get_ticket_price(60), 150)
 
         self.assertEqual(self.zoo.get_ticket_price(61), 100)
-    # Add your additional test cases here.
+   
 
 if __name__ == '__main__':
     unittest.main()
